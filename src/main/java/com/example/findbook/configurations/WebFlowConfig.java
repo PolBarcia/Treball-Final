@@ -19,7 +19,7 @@ public class WebFlowConfig extends AbstractFlowConfiguration{
 	
 	
 	@Autowired
-	private com.isolutions4u.onlineshopping.configurations.ProjectConfiguration projectConfiguration;
+	private ProjectConfiguration projectConfiguration;
 
 	@Bean
 	public FlowExecutor flowExecutor() {
